@@ -81,7 +81,7 @@ ollers).</br>
 1- Install This PHP Intelephense & PHP cs ﬁxer For VSCode Or Any Similar Editors & Put This File In Your Project Root Directory then make the ﬁxer automatically executed on save.</br>
 
 2-Create a blade component called Button that accepts type parameter so that it can be called like this.</br>
-    '<x-button type=”primary”>View</x-button>'</br>
-    '<x-button type=”secondary”>Edit</x-button>'</br>
-    '<x-button type=”danger”>Delete</x-button>'</br>
+    `<x-button type=”primary”>View</x-button>`</br>
+    `<x-button type=”secondary”>Edit</x-button>`</br>
+    `<x-button type=”danger”>Delete</x-button>`</br>
 php artisan make:component Button Then read this doc link and apply the same concepts on the button component.</br>
