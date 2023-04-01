@@ -67,14 +67,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # Laravel
 
 # Lab 1
-1-create a github repo and use it to the rest of days
-2-all labs code will be pushed to main branch so don’t create sub branches for each day
-3-Code crud operations on laravel framework 
+1-create a github repo and use it to the rest of days.
+2-all labs code will be pushed to main branch so don’t create sub branches for each day.
+3-Code crud operations on laravel framework.
 4-Implement Resource Controller methods like screenshots (Index, Create, Store, Edit, Update, Destroy, Show) (https://laravel.com/docs/master/controllers#resource-contr
-ollers)
-5-All Posts is a link that redirect back to /posts route
-6-Use blade layout to not duplicate navbar across view ﬁles
-7-When submitting a form make sure to redirect back to /posts route (For Delete Button Logic Leave It For Lab 2)
+ollers).
+5-All Posts is a link that redirect back to /posts route.
+6-Use blade layout to not duplicate navbar across view ﬁles.
+7-When submitting a form make sure to redirect back to /posts route (For Delete Button Logic Leave It For Lab 2).
 
 # Lab 1 (Bonus)
 
