@@ -1,3 +1,23 @@
+# Lab 1
+1-create a github repo and use it to the rest of days.</br>
+2-all labs code will be pushed to main branch so don’t create sub branches for each day.</br>
+3-Code crud operations on laravel framework.</br>
+4-Implement Resource Controller methods like screenshots (Index, Create, Store, Edit, Update, Destroy, Show) (https://laravel.com/docs/master/controllers#resource-contr
+ollers).</br>
+5-All Posts is a link that redirect back to /posts route.</br>
+6-Use blade layout to not duplicate navbar across view ﬁles.</br>
+7-When submitting a form make sure to redirect back to /posts route (For Delete Button Logic Leave It For Lab 2).</br>
+
+# Lab 1 (Bonus)
+
+1- Install This PHP Intelephense & PHP cs ﬁxer For VSCode Or Any Similar Editors & Put This File In Your Project Root Directory then make the ﬁxer automatically executed on save.</br>
+
+2-Create a blade component called Button that accepts type parameter so that it can be called like this.</br>
+    `<x-button type=”primary”>View</x-button>`</br>
+    `<x-button type=”secondary”>Edit</x-button>`</br>
+    `<x-button type=”danger”>Delete</x-button>`</br>
+php artisan make:component Button Then read this doc link and apply the same concepts on the button component.</br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -65,23 +85,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Laravel
-
-# Lab 1
-1-create a github repo and use it to the rest of days.</br>
-2-all labs code will be pushed to main branch so don’t create sub branches for each day.</br>
-3-Code crud operations on laravel framework.</br>
-4-Implement Resource Controller methods like screenshots (Index, Create, Store, Edit, Update, Destroy, Show) (https://laravel.com/docs/master/controllers#resource-contr
-ollers).</br>
-5-All Posts is a link that redirect back to /posts route.</br>
-6-Use blade layout to not duplicate navbar across view ﬁles.</br>
-7-When submitting a form make sure to redirect back to /posts route (For Delete Button Logic Leave It For Lab 2).</br>
-
-# Lab 1 (Bonus)
-
-1- Install This PHP Intelephense & PHP cs ﬁxer For VSCode Or Any Similar Editors & Put This File In Your Project Root Directory then make the ﬁxer automatically executed on save.</br>
-
-2-Create a blade component called Button that accepts type parameter so that it can be called like this.</br>
-    `<x-button type=”primary”>View</x-button>`</br>
-    `<x-button type=”secondary”>Edit</x-button>`</br>
-    `<x-button type=”danger”>Delete</x-button>`</br>
-php artisan make:component Button Then read this doc link and apply the same concepts on the button component.</br>
