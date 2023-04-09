@@ -31,9 +31,9 @@
             <td class="multi-line">{{ $product->name }}</td>
             <td>{{ $product->detail }}</td>
             <td>
-                <form action="{{ route('products.destroy',$product->id) }}" method="POST">
-                    <a class="btn btn-info" href="{{ route('products.show',$product->id) }}">Show</a>
-                    <a class="btn btn-primary" href="{{ route('products.edit',$product->id) }}">Edit</a>
+                <form action="{{ route('products.destroy', $product->slug) }}" method="POST">
+                    <a class="btn btn-info" href="{{ route('products.show', $product->slug) }}">Show</a>
+                    <a class="btn btn-primary" href="{{ route('products.edit',$product->slug) }}">Edit</a>
                     @csrf
                     @method('DELETE')
                     <button type="submit" onclick="return confirm('Are You Sure to Delete')" class="btn btn-danger">Delete</button>

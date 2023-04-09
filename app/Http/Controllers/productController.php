@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class ProductController extends Controller
 {
@@ -43,7 +44,13 @@ class ProductController extends Controller
             'detail' => 'required',
         ]);
 
-        Product::create($request->all());
+        $product = Product::create([
+            'name' => $request->name,
+            'detail' => $request->detail,
+            'slug' => str::slug($request->name)
+        ]);
+
+        // dd($request->all());
 
         return redirect()->route('products.index')
                         ->with('success','Product created successfully.');

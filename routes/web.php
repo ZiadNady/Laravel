@@ -19,4 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
+Route::get('/products/{product:slug}', [ProductController::class, 'show'])->name('products.show');
+Route::get('/products/{product:slug}', [ProductController::class, 'edit'])->name('products.edit');
+
 Route::resource('products', productController::class);
